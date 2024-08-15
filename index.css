@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    /* word-spacing: 50px; */
+}
+
+#navlinks{
+    word-spacing: 10px;
+}
+
+#home-link{
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: lightgrey
+}
+
+#home-link:hover{
+    color: black;
+    transition: .3s;
+    border: 1px solid white;
+    background-color: lightgrey;
+    opacity: 10px;
+
+}
+
+#projects-link{
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: lightgrey
+}
+
+#projects-link:hover{
+    color: black;
+    transition: .3s;
+    border: px solid white;
+    background-color: lightgrey;
+}
+
+#tools-link{
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: lightgrey
+}
+
+#tools-link:hover{
+    color: black;
+    transition: .3s;
+    border: 1px solid white;
+    background-color: lightgrey;
+}
+
+#contact-link{
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: lightgrey
+}
+
+#contact-link:hover{
+    color: black;
+    transition: .3s;
+    border: 1px solid white;
+    background-color: lightgrey;
+}
+
+#img-logo{
+    height: 40px;
+    width: 200px;
+}
+
+#landing-section{
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.7), /* Darker gradient start */
+        rgba(0, 0, 0, 0.3)  /* Lighter gradient end */
+    ),
+    url('./images/landing-background-img-1.jpg') no-repeat center center;
+
+    color: rgb(235, 235, 235);
+    padding: 50px 15px; 
+    position: relative;
+}
+
+#my-photo{
+    max-width: 100%;
+    height: auto;
+}
+
+#projects{
+    background-color: rgb(181, 181, 181) !important;
+    height: 90vh;
+}
+

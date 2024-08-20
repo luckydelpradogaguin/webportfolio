@@ -1,131 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Portfolio | Lucky Gaguin </title>
-    <!-- CSS External -->
-    <link rel="stylesheet" href="./index.css">
-    <!-- Bootstrap Link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Google Font Link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Portfolio | Lucky Gaguin </title>
+  <!-- CSS External -->
+  <link rel="stylesheet" href="./index.css">
+  <!-- Bootstrap Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Google Font Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Start of Navigation Section -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
-        <div class="container">
-            <img src="./images/updated-logo-2.png" alt="LucksDev" id="img-logo">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon bg-secondary"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto mx-5" id="navlinks">
-                    <a class="nav-link active px-3" href="#landing-section" id="home-link">Home</a>
-                    <a class="nav-link px-3" href="#projects" id="projects-link">Projects</a>
-                    <a class="nav-link px-3" href="#tools" id="tools-link">Tools</a>
-                    
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!-- End of Navigation Section -->
-    
-    <!-- Start of Home Section-->
-    
-    <div id="landing-section" class="py-5">
-        <div class="container" id="landing-section-contents">
-            <div class="row align-items-center">
-                <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
-                    <img src="./images/myphoto-2.png" class="img-fluid rounded-circle" id="my-photo" alt="Lucky Gaguin">
-                </div>
-                <div class="col-12 col-md-8 text-center text-md-start">
-                    <h1 class="display-4 order-sm-1">Lucky Gaguin</h1>
-                    <h3 class="mb-3">Full Stack Web Developer</h3>
-                    <p>Welcome to my portfolio! I'm a full-stack software engineer with a passion for building dynamic and user-friendly web applications. Transitioning from a different career, I've embraced the challenge of learning new technologies and applying my skills to create innovative solutions. My journey into software development has equipped me with a unique perspective, combining a fresh approach with a strong dedication to mastering the full stack. Here, you'll find a showcase of my projects that reflect my commitment to continuous learning and problem-solving in the world of tech.</p>
-                    <div class="d-flex justify-content-end align-items-end">
-                        <button type="button" class="btn btn-outline-secondary text-white" id="contact-button">Contact Me</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End of Home Section -->
-    
-    <!-- Project Section Start -->
-    <div id="projects" class="bg-secondary">
-        <div class="container">
-            <div class="row py-5">
-                <div class="col">
-                    <h5 class="text-center mb-5">Below you can see some examples of my recent Projects</h5 class="text-center">
-                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <img src="./images/project-1.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                </div>
-                              </div>
-                              <div class="carousel-item">
-                                <img src="./images/project-2.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                </div>
-                              </div>
-                              <div class="carousel-item">
-                                <img src="./images/project-3.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                </div>
-                              </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                            </button>
-                          </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Projects Section End -->
-
-      <!-- Tools Section Start -->
-    <!-- <div id="tools">
-      <div class="container">
-        <div class="row py-5">
-          <div class="col-md-6">
-            <img src="./images/HTML-5-Logo.png" class="html-tool-img">
-          </div>
-          <div class="col-md-6">
-            <img src="./images/CSS3.png" class="css3-tool-img">
-          </div>
-          <div class="col">
-            <img src="./images/JS.png" class="js-tool-img">
-          </div>
-          <div class="col">
-            <img src="./images/bootstrap.png" class="bootstrap-tool-img">
-          </div>
-          <div class="col-12 text-center">
-            <img src="./images/figma.png" class="figma-tool-img">
-          </div>
-          
+  <!-- Start of Navigation Section -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+    <div class="container">
+      <img src="./images/updated-logo-2.png" alt="LucksDev" id="img-logo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-secondary"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto mx-5" id="navlinks">
+          <a class="nav-link active px-3" href="#landing-section" id="home-link">Home</a>
+          <a class="nav-link px-3" href="#projects" id="projects-link">Projects</a>
+          <a class="nav-link px-3" href="#tools" id="tools-link">Tools</a>
         </div>
       </div>
-
-    </div> -->
+    </div>
+  </nav>
+  <!-- End of Navigation Section -->
+  
+  <!-- Start of Home Section-->
+  
+  <div id="landing-section" class="py-5">
+    <div class="container" id="landing-section-contents">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
+          <img src="./images/myphoto-2.png" class="img-fluid rounded-circle" id="my-photo" alt="Lucky Gaguin">
+        </div>
+        <div class="col-12 col-md-8 text-center text-md-start">
+          <h1 class="display-4 order-sm-1">Lucky Gaguin</h1>
+          <h3 class="mb-3">Full Stack Web Developer</h3>
+          <p>Welcome to my portfolio! I'm a full-stack software engineer with a passion for building dynamic and user-friendly web applications. Transitioning from a different career, I've embraced the challenge of learning new technologies and applying my skills to create innovative solutions. My journey into software development has equipped me with a unique perspective, combining a fresh approach with a strong dedication to mastering the full stack. Here, you'll find a showcase of my projects that reflect my commitment to continuous learning and problem-solving in the world of tech.</p>
+          <div class="d-flex justify-content-end align-items-end">
+            <a href="#contact" class="text-decoration-none px-5 py-3" id="contact-link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Home Section -->
+  
+  <!-- Project Section Start -->
+  <div id="projects">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col">
+          <h5 class="text-center mb-5">Below you can see some examples of my recent Projects</h5 class="text-center">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/project-1.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-2.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-3.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Projects Section End -->
+    
+    <!-- Tools Section Start -->
+    <div class="container" id="tools">
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mb-5">
+        <div class="col-sm-12 col-md-12 col-lg-4">
+          <div class="card text-center"> <!-- Centering text in the card -->
+            <div class="card-body">
+              <h5 class="card-title">Front End</h5>
+              <div class="row justify-content-evenly"> <!-- Row for the first two logos -->
+                <div class="col-6 col-md-3 p-2">
+                  <img src="./images/HTML-5-Logo.png" id="html-tool-logo" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-3 p-2">
+                  <img src="./images/CSS3.png" id="css-tool-logo" class="img-fluid">
+                </div>
+              </div>
+              <div class="row justify-content-evenly"> <!-- Row for the next two logos -->
+                <div class="col-6 col-md-3 p-2">
+                  <img src="./images/JS.png" id="js-tool-logo" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-3 p-2">
+                  <img src="./images/bootstrap.png" id="bootstrap-tool-logo" class="img-fluid">
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-12 col-md-12 col-lg-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Back End</h5>
+              <div class="row justify-content-evenly"> <!-- Row for the first two logos -->
+                <div class="col-6 col-md-3 p-2">
+                  <img src="./images/mongodb.png" id="mongodb-tool-logo" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-3 p-2">
+                  <img src="./images/nodejs.png" id="nodejs-tool-logo" class="img-fluid">
+                </div>
+              </div>
+              <div class="row justify-content-evenly"> <!-- Row for the next two logos -->
+                <div class="col-6 col-md-3 p-2">
+                  <img src="./images/expressjs.png" id="expressjs-tool-logo" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-3 p-2">
+                  <img src="./images/reactjs.png" id="reactjs-tool-logo" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-12 col-md-12 col-lg-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Other Tools</h5>
+              <div class="row justify-content-evenly"> <!-- Row for the first two logos -->
+                <div class="col-6 col-md-3 p-2">
+                  <img src="./images/vscode.png" id="vscode-tool-logo" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-3 p-2">
+                  <img src="./images/gitbash.png" id="gitbash" class="img-fluid">
+                </div>
+              </div>
+              <div class="row justify-content-evenly"> <!-- Row for the next two logos -->
+                <div class="col-6 col-md-3 p-2">
+                  <img src="./images/figma.png" id="figma-tool-logo" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-3 p-2">
+                  <img src="./images/stack.png" id="stack-tool-logo" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
     <!-- Tools Section End -->
     
+    <!-- Contact Section Start / Left Section -->
+    <div class="container mt-5" id="contact">
+      <div class="row text-center">
+        <div class="col-sm-12 col-md-6 justify-content-center p-5" id="contact">
+          <h2>CONTACT ME</h2>
+          <p>Feel free to drop a message! I will build a great website for you.</p>
+          <!-- Contact Form Start -->
+          <form class="w-100">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="Your Name"/>
+            </div>
+            
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="name@example.com"/>
+            </div>
+            
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" name="message" rows="5" class="form-control"></textarea>
+            </div>
+            
+            <div class="text-end">
+              <button type="submit" class="btn text-white border" id="submit">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+        <!-- Contact Form End -->
+        
+        <!-- Socials Section Start / Right Section -->
+        <div class="col-12 col-sm-12 col-md-6 justify-content-center align-items-end p-5">
+          <h2>Checkout my Socials!</h2>
+          <a href="https://www.facebook.com/luckydelpradogaguin" target="_blank"><img src="./images/fb-logo.png"  id="fb-logo"></a>
+          <a href="https://www.instagram.com/lucksgaguin/" target="_blank"><img src="./images/ig-logo.png" class="img-fluid" id="ig-logo"></a> 
+          <a href="https://www.linkedin.com/in/luckydelpradogaguin/" target="_blank"><img src="./images/linkedin-logo.png" class="img-fluid" id="linkedin-logo"></a>
+        </div>
+        <!-- Socials Section End -->
+      </div></div>
+    <!-- Contact Section End -->
+
+    <div class="container mt-3">
+      <div class="row">
+        <div class="">
+          <iframe id="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.78354394425!2d121.00193637594052!3d14.55436717820541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c96e0b826651%3A0xfe23ab23f5bb2d1b!2s1671%20Dian%20St%2C%20Makati%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1723774592597!5m2!1sen!2sph"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="img-fluid"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section Start -->
+    <footer class="text-center p-3 mt-3 bg-secondary" id="footer">
+      <p class="mb-0"> &COPY; 2024 | All rights reserved.</p>
+    </footer>
+    <!-- Footer Section End -->
     
     <!-- Boostrap Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
-</html>
+  </body>
+  </html>

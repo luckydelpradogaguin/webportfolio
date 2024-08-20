@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-#navbar{
-    /* word-spacing: 50px; */
-}
-
 #navlinks{
     word-spacing: 10px;
 }
@@ -89,8 +85,119 @@
     height: auto;
 }
 
+/* PROJECT SECTION */
+
 #projects{
     background-color: rgb(181, 181, 181) !important;
-    height: 90vh;
+    max-height: 90vh;
 }
 
+/* TOOL SECTION */
+
+#tools{
+    max-height: 100vh;
+}
+
+#html-tool-logo{
+    height: 100px;
+    width: 300px;
+}
+
+#css-tool-logo{
+    height: 105px;
+    width: 120px;
+}
+
+#js-tool-logo{
+    height: 95px;
+    width: 95px;
+}
+
+#bootstrap-tool-logo{
+    height: 100px;
+    width: 105px;
+}
+
+#mongodb-tool-logo{
+    height: 115px;
+    width: 200px;
+}
+
+#nodejs-tool-logo{
+    height: 110px;
+    width: 200px;
+}
+
+#expressjs-tool-logo{
+    height: 90px;
+    width: 130px;
+}
+
+#reactjs-tool-logo{
+    height: 90px;
+    width: 200px;
+}
+
+#figma-tool-logo{
+    height: 105px;
+    width: 230px;
+}
+
+#vscode-tool-logo{
+    height: 100px;
+    width: 220px;
+}
+
+#gitbash-tool-logo{
+    height: 110px;
+    width: 200px;
+}
+
+#stack-tool-logo{
+    height: 100px;
+    width: 200px;
+}
+
+#contact-location{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+}
+
+/* CONTACT SECTION */
+
+#contact{
+    max-height: 100vh;
+    background-color: rgb(181, 181, 181) !important;
+    
+}
+
+#contact-link{
+    border: 1px solid lightgrey;
+    letter-spacing: 5px;
+}
+
+#your-name{
+    columns: 5;
+}
+
+#fb-logo{
+    height: 100px;
+    width: 120px;
+}
+
+#ig-logo{
+    height: 150px;
+    width: 150px;
+}
+
+#linkedin-logo{
+    height: 100px;
+    width: 110px;
+}
+
+/* MAP */
+#contact-map{
+    height: 300px;
+    width: 1300px;
+}

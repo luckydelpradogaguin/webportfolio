@@ -1,203 +1,200 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#navlinks{
-    word-spacing: 10px;
+#navlinks {
+  word-spacing: 10px;
 }
 
-#home-link{
-    font-weight: bold;
-    letter-spacing: 2px;
-    color: lightgrey
+#home-link {
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: lightgrey;
 }
 
-#home-link:hover{
-    color: black;
-    transition: .3s;
-    border: 1px solid white;
-    background-color: lightgrey;
-    opacity: 10px;
-
+#home-link:hover {
+  color: black;
+  transition: 0.3s;
+  border: 1px solid white;
+  background-color: lightgrey;
+  opacity: 10px;
 }
 
-#projects-link{
-    font-weight: bold;
-    letter-spacing: 2px;
-    color: lightgrey
+#projects-link {
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: lightgrey;
 }
 
-#projects-link:hover{
-    color: black;
-    transition: .3s;
-    border: px solid white;
-    background-color: lightgrey;
+#projects-link:hover {
+  color: black;
+  transition: 0.3s;
+  border: px solid white;
+  background-color: lightgrey;
 }
 
-#tools-link{
-    font-weight: bold;
-    letter-spacing: 2px;
-    color: lightgrey
+#tools-link {
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: lightgrey;
 }
 
-#tools-link:hover{
-    color: black;
-    transition: .3s;
-    border: 1px solid white;
-    background-color: lightgrey;
+#tools-link:hover {
+  color: black;
+  transition: 0.3s;
+  border: 1px solid white;
+  background-color: lightgrey;
 }
 
-#contact-link{
-    font-weight: bold;
-    letter-spacing: 2px;
-    color: lightgrey
+#contact-link {
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: lightgrey;
 }
 
-#contact-link:hover{
-    color: black;
-    transition: .3s;
-    border: 1px solid white;
-    background-color: lightgrey;
+#contact-link:hover {
+  color: black;
+  transition: 0.3s;
+  border: 1px solid white;
+  background-color: lightgrey;
 }
 
-#img-logo{
-    height: 40px;
-    width: 200px;
+#img-logo {
+  height: 40px;
+  width: 200px;
 }
 
-#landing{
-    background: 
-    linear-gradient(
-        rgba(0, 0, 0, 0.7), /* Darker gradient start */
-        rgba(0, 0, 0, 0.3)  /* Lighter gradient end */
+#landing {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      /* Darker gradient start */ rgba(0, 0, 0, 0.3) /* Lighter gradient end */
     ),
-    url('./images/landing-background-img-1.jpg') no-repeat center center;
+    url("./images/landing-background-img-1.jpg") no-repeat center center;
 
-    color: rgb(235, 235, 235);
-    padding: 50px 15px; 
-    position: relative;
+  color: rgb(235, 235, 235);
+  padding: 50px 15px;
+  position: relative;
 }
 
-#my-photo{
-    max-width: 100%;
-    height: auto;
+#my-photo {
+  max-width: 100%;
+  height: auto;
 }
 
 /* PROJECT SECTION */
 
-#projects{
-    background-color: rgb(181, 181, 181) !important;
-    max-height: 90vh;
+#projects {
+  background-color: rgb(181, 181, 181) !important;
+  max-height: 90vh;
 }
 
 /* TOOL SECTION */
 
-#tools{
-    max-height: 100vh;
+/* #tools {
+  max-height: 100vh;
+} */
+
+#html-tool-logo {
+  height: 100px;
+  width: 300px;
 }
 
-#html-tool-logo{
-    height: 100px;
-    width: 300px;
+#css-tool-logo {
+  height: 105px;
+  width: 120px;
 }
 
-#css-tool-logo{
-    height: 105px;
-    width: 120px;
+#js-tool-logo {
+  height: 95px;
+  width: 95px;
 }
 
-#js-tool-logo{
-    height: 95px;
-    width: 95px;
+#bootstrap-tool-logo {
+  height: 100px;
+  width: 105px;
 }
 
-#bootstrap-tool-logo{
-    height: 100px;
-    width: 105px;
+#mongodb-tool-logo {
+  height: 115px;
+  width: 200px;
 }
 
-#mongodb-tool-logo{
-    height: 115px;
-    width: 200px;
+#nodejs-tool-logo {
+  height: 110px;
+  width: 200px;
 }
 
-#nodejs-tool-logo{
-    height: 110px;
-    width: 200px;
+#expressjs-tool-logo {
+  height: 90px;
+  width: 130px;
 }
 
-#expressjs-tool-logo{
-    height: 90px;
-    width: 130px;
+#reactjs-tool-logo {
+  height: 90px;
+  width: 200px;
 }
 
-#reactjs-tool-logo{
-    height: 90px;
-    width: 200px;
+#figma-tool-logo {
+  height: 105px;
+  width: 230px;
 }
 
-#figma-tool-logo{
-    height: 105px;
-    width: 230px;
+#vscode-tool-logo {
+  height: 100px;
+  width: 220px;
 }
 
-#vscode-tool-logo{
-    height: 100px;
-    width: 220px;
+#gitbash-tool-logo {
+  height: 110px;
+  width: 200px;
 }
 
-#gitbash-tool-logo{
-    height: 110px;
-    width: 200px;
+#stack-tool-logo {
+  height: 100px;
+  width: 200px;
 }
 
-#stack-tool-logo{
-    height: 100px;
-    width: 200px;
-}
-
-#contact-location{
-    height: 500px;
-    width: 500px;
-    border: 1px solid black;
+#contact-location {
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
 }
 
 /* CONTACT SECTION */
 
-#contact{
-    max-height: 100vh;
-    background-color: rgb(181, 181, 181) !important;
-    
+#contact {
+  /* max-height: 100vh; */
+  background-color: rgb(181, 181, 181) !important;
 }
 
-#contact-link{
-    border: 1px solid lightgrey;
-    letter-spacing: 5px;
+#contact-link {
+  border: 1px solid lightgrey;
+  letter-spacing: 5px;
 }
 
-#your-name{
-    columns: 5;
+#your-name {
+  columns: 5;
 }
 
-#fb-logo{
-    height: 100px;
-    width: 120px;
+#fb-logo {
+  height: 100px;
+  width: 120px;
 }
 
-#ig-logo{
-    height: 150px;
-    width: 150px;
+#ig-logo {
+  height: 150px;
+  width: 150px;
 }
 
-#linkedin-logo{
-    height: 100px;
-    width: 110px;
+#linkedin-logo {
+  height: 100px;
+  width: 110px;
 }
 
 /* MAP */
-#contact-map{
-    height: 300px;
-    width: 1300px;
+#contact-map {
+  height: 300px;
+  width: 1300px;
 }
